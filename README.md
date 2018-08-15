@@ -1,2 +1,2 @@
 # extremePhono
-Website project built with bootstrap
+Redirection website project built with Bootstrap
