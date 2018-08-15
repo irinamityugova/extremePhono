@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="main.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <!--Navigation-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white" style="border-bottom: solid 5px #D12B13">
+       <a class="navbar-brand" href="#"><img style="height: 50px" alt="ExtremePhono logo" /></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+             <li class="nav-item active">
+                <a class="nav-link" href="#">STORE<span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="#">REVIEWS</a>
+             </li>
+			  <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+             </li>
+          </ul>
+       </div>
+    </nav> <!--End Navigation-->
+	<!--Fixed Side Button-->
+	<a href="#"><div class="btn-dark side-button" style="outline: 5px solid white;">
+	  <p class="text-white" style="display: block; margin: auto;">SEE OUR STORE FOR MORE</p>
+	</div></a><!--End Fixed Side Button-->
+    <!--Main Container-->
+	<div class="container">
+	   <!--Store Row-->
+       <div class="row" id="store" style="margin-top: 50px">
+	     <!--Products-->
+		 <div class="col-lg-7 product-container"> 
+		  <!--Card 1-->
+          <div class="product bg-dark"> 
+  		    <div class="card-body"></div>
+	      </div> 
+		  <!--Card 2-->
+		  <div class="product bg-dark"> 
+  		    <div class="card-body"></div>
+	      </div> 
+	      <!--Card 3-->
+		  <div class="product bg-dark" style=""> 
+  		    <div class="card-body"></div>
+	      </div>
+		  <!--Card 4-->
+		  <div class="product bg-dark"> 
+  		    <div class="card-body"></div>
+	      </div>
+	      <!--Card 5-->
+		  <div class="product bg-dark">
+		    <div class="card-body"></div>
+	      </div>
+		  <!--Card 6-->
+		  <div class="product bg-dark">
+		    <div class="card-body"></div>
+	      </div>
+		  <!--Card 7-->
+		  <div class="product bg-dark">
+		    <div class="card-body"></div>
+	      </div>
+		 </div> <!--End Products-->
+		 <!--Description-->
+	     <div class="col-lg-4 description-container">
+	       <h1>ExtremePhono Solid-State Stylus Cleaner</h1>
+	       <p>100% safe to the expensive cartridge: </p>
+		   <p>Use only VTF to clean stylus, not hand or finger. There is no stress to the suspension and cantilever. </p>
+		   <p>Long Lasting.  No evaporation and very stable, as long as no solvent like alcohol ever get into the content.  Rated life is 5 years.</p>
+		   <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Click to Buy</p></div>
+		 </div> <!--End Description-->
+       </div> <!--End Store Row-->
+	   <!--Reviews Row-->
+       <div class="row" id="reviews-row" style="margin: 50px 0">
+          <div class="img col-md-4" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
+		  	<img style="width: 80%;" src="img/SATISFACTION.svg.png" alt="Satisfaction is 100% guaranteed."/>
+			<p style="margin: 30px 0; text-align: center; color: gray">Return the item in its original condition within 30-day for a full-refund.</p>
+		  </div>
+	   	  <div class="reviews col-md-7">
+			  <div class="review">
+				 <p>"I use a Rega 3 with an after market acrylic platter. Nothing I tried including Ring mat, Herbie's new mat or your original mat, outweighed the advantages of going matless, however the Speed Mat package has exceeded the expectations of what I thought possible for a passive product to extract so much information from vinyl."</p>
+			  	 <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Extremephono Speed Mat</p></div>
+			  </div>
+			  <div class="review">
+			  	<p>"I use Casey's goo several times a day. I've inspected my Grado's with a 30 power lighted microscope and can confirm that the goo removes stuff that the usual stylus cleaning methods leave behind."</p>
+			  	<div class="btn-dark btn" style="color: white"><p style="margin: auto;">Solid-State Stylus Cleaner</p></div>
+			  </div>
+		  </div>
+		</div> <!--End Reviews Row-->
+	   
+		<!--Contact Row-->
+	   <div class="row" id="contact-row" style="margin: 150px 0">
+<!--Section: Contact v.2-->
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </form>
+
+            <a class="text-center text-md-left btn-dark btn"  style="color: white;" onclick="validateForm()">
+				<div style="margin:auto">Send</div></a>
+            
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                    <p>+1(510)339-3667</p>
+                </li>
+                <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                    <p>extreme@extremephono.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+<!--Section: Contact v.2-->
+	   </div> <!--End Contact Row-->
+    </div> <!--End Main Container-->
+	<!--Footer-->
+	<div class="text-center col-lg-6 offset-lg-3">
+        <p>Copyright &copy; 2018 &middot; All Rights Reserved &middot; Designed and developed by <a href="irinamityugova.me" >Irina Mityugova</a></p>
+	</div><!--End Footer-->
+    
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.0.0.js"></script>
+	<script>
+function validateForm() {
+    var name =  document.getElementById('name').value;
+    if (name == "") {
+        document.getElementById('status').innerHTML = "Name cannot be empty";
+        return false;
+    }
+    var email =  document.getElementById('email').value;
+    if (email == "") {
+        document.getElementById('status').innerHTML = "Email cannot be empty";
+        return false;
+    } else {
+        var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(!re.test(email)){
+            document.getElementById('status').innerHTML = "Email format invalid";
+            return false;
+        }
+    }
+    var subject =  document.getElementById('subject').value;
+    if (subject == "") {
+        document.getElementById('status').innerHTML = "Subject cannot be empty";
+        return false;
+    }
+    var message =  document.getElementById('message').value;
+    if (message == "") {
+        document.getElementById('status').innerHTML = "Message cannot be empty";
+        return false;
+    }
+    document.getElementById('status').innerHTML = "Sending...";
+    document.getElementById('contact-form').submit();
+
+}
+</script>
+	  
+  </body>
+</html>
