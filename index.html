@@ -1,104 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>ExtremePhono</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Developing technology for quality sound.">
-    <meta name="keywords" content="ExtremePhono, sound, music, player">
+    <meta name="keywords" content="ExtremePhono, sound, music, player, Stylus Cleaner, mat, cartridge">
     <meta name="author" content="Irina Mityugova">
-    <title>ExtremePhono - Quality Sound</title>
-
-    <!-- Bootstrap -->
     <link href="src/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
   </head>
   <body>
-    <!--Navigation-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-white" style="border-bottom: solid 5px #D12B13">
-       <a class="navbar-brand" href="#"><img style="height: 50px" alt="ExtremePhono logo" /></a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-       </button>
-       <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-             <li class="nav-item active">
-                <a class="nav-link" href="#store">STORE<span class="sr-only">(current)</span></a>
-             </li>
-             <li class="nav-item">
-                <a class="nav-link" href="#reviews">REVIEWS</a>
-             </li>
-			  <li class="nav-item">
-                <a class="nav-link" href="#contact">CONTACT</a>
-             </li>
-          </ul>
-       </div>
-    </nav> <!--End Navigation-->
-	<!--Fixed Side Button-->
-	<a href="#"><div class="btn-dark side-button" style="outline: 5px solid white;">
+    
+      <!--Navigation-->
+      <nav class="navbar navbar-expand-md navbar-light bg-white" style="border-bottom: solid 5px #D12B13">
+       
+          <div class="nav-components">
+               <a class="navbar-brand" href="#"><img src="img/Extremelogo.jpg" style="height: 50px" alt="ExtremePhono logo" /></a>
+
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+           
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="https://www.amazon.com/s?url=search-alias%3Daps&field-keywords=extremephono">STORE<span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#reviews">REVIEWS</a>
+                     </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                     </li>
+                  </ul>
+               </div>
+          </div>
+    </nav>
+	
+      <!--Fixed Side Button-->
+      <a href="https://www.amazon.com/s?url=search-alias%3Daps&field-keywords=extremephono"><div class="btn-dark side-button" style="outline: 5px solid white;">
 	  <p class="text-white" style="display: block; margin: auto;">SEE OUR STORE FOR MORE</p>
-	</div></a><!--End Fixed Side Button-->
-    <!--Main Container-->
-	<div class="container">
-	   <!--Store Row-->
-       <div class="row" id="store" style="margin-top: 50px">
-	     <!--Products-->
-		 <div class="col-lg-7 product-container"> 
-		  <!--Card 1-->
-          <div class="product"> 
-  		    <div class="card-body"></div>
-	      </div> <!--End Card 2-->
-		  <!--Card 2-->
-		  <div class="product"> 
-  		    <div class="card-body"></div>
-	      </div> <!--End Card 2-->
+	</div></a>
+      
+      <!--Main Container-->
+      <div class="container">
+          
+          <!--Store-->
+          <div class="row" id="store" style="margin-top: 50px">
+              
+              <!--Pictures of Products-->
+              <div class="col-lg-7 product-container"> 
+                  
+<!-- Pictures of products go to this section.
+* Make sure to keep these in the same order as descriptions.--> 
+
+                  <!--Product 1, Extremephono Solid-State Stylus Cleaner (SCC1)-->
+                  <div class="product" onclick="currentSlide(1)"> 
+                      
+                      <!--Link to Amazon-->
+                      <a href="https://www.amazon.com/gp/product/B07BYVHWC8/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07BYVHWC8&linkId=508a9c0d211501027e0fe71c37a27756" target="_blank">CLICK TO BUY</a>
+                      
+                      <!--Image-->
+                      <div style="background-image: url(img/51mVtDZTCCL._SL250_.jpg);" class="productimage">
+                          <div class="layer"></div>
+                      </div>
+                      
+                  </div> <!--End Product 1-->
+                  
+                  <!--Product 2, Extremephono Speed Standard Turntable Mat Kit bundled with None-Felt Mat (SPSM1)-->
+                  <div class="product" onclick="currentSlide(2)"> 
+                      
+                      <!--Link to Amazon-->
+                      <a href="https://www.amazon.com/gp/product/B07BX8X4CN/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07BX8X4CN&linkId=892902f5c5717ded85dedbd3df65c873" target="_blank">CLICK TO BUY</a>
+                      
+                      <!--Image-->
+                      <div style="background-image: url(img/91BngiyAu1L._SY879_.jpg);" class="productimage"><div class="layer"></div></div>
+                      
+                  </div> <!--End Product 2-->
+                  
+                  <!--Product 3, Extremephono Speed Donut Turntable Mat Kit bundled with None-Felt Mat (SPDM1)-->
+                  <div class="product" onclick="currentSlide(3)"> 
+                      
+                      <!--Link to Amazon-->
+                      <a href="https://www.amazon.com/gp/product/B07GZZVL6L/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07GZZVL6L&linkId=644a915aefe12bef44e17de47" target="_blank">CLICK TO BUY</a>
+                      
+                      <!--Image-->
+                      <div style="background-image: url(img/donut01.jpg);" class="productimage"><div class="layer"></div></div>
+                      
+                  </div> <!--End Product 3-->
+                  
+                  <!--Product 4, Extremephono Speed Donut Turntable Mat (SPDOU)-->
+                  <div class="product" onclick="currentSlide(4)"> 
+                      
+                      <!--Link to Amazon-->
+                      <a href="https://www.amazon.com/gp/product/B07GZY9HD7/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07GZY9HD7&linkId=18ae9098fb4186bf10a5c8c4e6878163" target="_blank">CLICK TO BUY</a>
+                      
+                      <!--Image-->
+                      <div style="background-image: url(img/donut03.jpg);" class="productimage"><div class="layer"></div></div>
+                      
+                  </div> <!--End Product 4-->
+                  
+                  <!--Product 5, Extremephono Speed Standard Turntable Mat Only (SPSOU)-->
+                  <div class="product" onclick="currentSlide(5)"> 
+                      
+                      <!--Link to Amazon-->
+                      <a href="https://www.amazon.com/gp/product/B07GZW6XJ5/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07GZW6XJ5&linkId=d5d4707166db552a5965a75d62601f55" target="_blank">CLICK TO BUY</a>
+                      
+                      <!--Image-->
+                      <div style="background-image: url(img/mat1.jpg);" class="productimage"><div class="layer"></div></div>
+                      
+                  </div> <!--End Product 5-->
+                  
+                  
+                  
+                  
+                  
+                  
+                  
 		 </div> <!--End Products-->
-		 <!--Description-->
-	     <div class="col-lg-5 description-container">
-             <!--hoverSlide 1-->
-             <div class="hoverSlide"> 
-               <h2>hoverSlide 1: ExtremePhono Solid-State Stylus Cleaner</h2>
-               <p>100% safe to the expensive cartridge: </p>
-               <p>Use only VTF to clean stylus, not hand or finger. There is no stress to the suspension and cantilever. </p>
-               <p>Long Lasting.  No evaporation and very stable, as long as no solvent like alcohol ever get into the content.  Rated life is 5 years.</p>
-               <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Click to Buy</p></div>
-             </div> <!--End hoverSlide 1-->
-             <!--hoverSlide 2-->
-             <div class="hoverSlide"> 
-               <h2>hoverSlide 2: ExtremePhono Solid-State Stylus Cleaner</h2>
-               <p>100% safe to the expensive cartridge: </p>
-               <p>Use only VTF to clean stylus, not hand or finger. There is no stress to the suspension and cantilever. </p>
-               <p>Long Lasting.  No evaporation and very stable, as long as no solvent like alcohol ever get into the content.  Rated life is 5 years.</p>
-               <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Click to Buy</p></div>
-             </div> <!--End hoverSlide 2-->
-             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		 </div> <!--End Description-->
-       </div> <!--End Store Row-->
+              
+              <!--Descriptions Container-->
+              <div class="col-lg-5 description-container">
+                  
+<!--Descriptions of a products go to this section.
+* Make sure to keep these in the same order as products.-->
+                  
+                  <!--Description for Product 1, Extremephono Solid-State Stylus Cleaner (SCC1)-->
+                  <div class="hoverSlide"> 
+                      <h3>Extremephono Solid-State Stylus Cleaner (SCC1)</h3>
+                      <p>100% safe to the expensive cartridge: </p>
+                      <p>Use only VTF to clean stylus, not hand or finger. There is no stress to the suspension and cantilever. </p>
+                      <p>Long Lasting.  No evaporation and very stable, as long as no solvent like alcohol ever get into the content.  Rated life is 5 years.</p>
+                      
+                      <!--Link to Amazon-->
+                      <a href="https://www.amazon.com/gp/product/B07BYVHWC8/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07BYVHWC8&linkId=508a9c0d211501027e0fe71c37a27756" target="_blank">
+                          <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Click to Buy</p></div>
+                      </a>
+                  </div> <!--End Description 1-->
+             
+                  <!--Description for Product 2, Extremephono Speed Standard Turntable Mat Kit bundled with None-Felt Mat (SPSM1)-->
+                  <div class="hoverSlide"> 
+                      <h3>Extremephono Speed Standard Turntable Mat Kit bundled with None-Felt Mat (SPSM1)</h3>
+                      <p>The None-Felt Mk-3 is a special compound material, it has a texture that's somewhat like combining suede with Neoprene. Thickness of the None-Felt Mk-3 mat is 2mm, approximates the Linn felt mat, and slightly thicker than Rega's. However, slight adjustments to VTA, VTF, and even anti-skating could refine the improvements.</p>
+                      <p>Instantly improves the sound: more dynamics, better bass, improved clarity and transparency, wider and deeper stoundstage.</p>
+                      
+                      <!--Link to Amazon-->   
+                      <a href="https://www.amazon.com/gp/product/B07BX8X4CN/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07BX8X4CN&linkId=892902f5c5717ded85dedbd3df65c873" target="_blank">
+                          <div class="btn-dark btn" style="color: white">
+                              <p style="margin: auto;">Click to Buy</p>
+                          </div>
+                      </a>
+                  </div> <!--End Description 2-->
+                  
+                  <!--Description for Product 3, Extremephono Speed Donut Turntable Mat Kit bundled with None-Felt Mat (SPDM1)-->
+                  <div class="hoverSlide"> 
+                      <h3>Extremephono Speed Donut Turntable Mat Kit bundled with None-Felt Mat (SPDM1)</h3>
+                      <p>The None-Felt Mk-3 is a special compound material, it has a texture that's somewhat like combining suede with Neoprene. Thickness of the None-Felt Mk-3 mat is 2mm, approximates the Linn felt mat, and slightly thicker than Rega's. However, slight adjustments to VTA, VTF, and even anti-skating could refine the improvements.</p>
+                      <p>Proprietary Donut center has a 4” center hole further eliminates vibration energy from the motor. The kit includes None-Felt mat for sandwiching between the Speed and the platter.</p>
+                      
+                      <!--Link to Amazon-->   
+                      <a href="https://www.amazon.com/gp/product/B07GZZVL6L/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07GZZVL6L&linkId=644a915aefe12bef44e17de47" target="_blank">
+                          <div class="btn-dark btn" style="color: white">
+                              <p style="margin: auto;">Click to Buy</p>
+                          </div>
+                      </a>
+                  </div> <!--End Description 3-->
+                  
+                  <!--Description for Product 4, Extremephono Speed Donut Turntable Mat (SPDOU)-->
+                  <div class="hoverSlide"> 
+                      <h3>Extremephono Speed Donut Turntable Mat (SPDOU)</h3>
+                      <p>Proprietary Donut center has a 4” center hole further eliminates vibration energy from the motor. Mat only, does not include None-Felt mat, original rubber or felt turntable mat is required to work with Standard Mat.</p>
+                      <p>arbon Fiber construction to dissipate the spurious energy generated when stylus is dragged across the LP groves, as well as from acoustic feedback.</p>
+                      
+                      <!--Link to Amazon-->   
+                      <a href="https://www.amazon.com/gp/product/B07GZY9HD7/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07GZY9HD7&linkId=18ae9098fb4186bf10a5c8c4e6878163" target="_blank">
+                          <div class="btn-dark btn" style="color: white">
+                              <p style="margin: auto;">Click to Buy</p>
+                          </div>
+                      </a>
+                  </div> <!--End Description 4-->
+                  
+                  <!--Description for Product 5, Extremephono Speed Standard Turntable Mat Only (SPSOU) -->
+                  <div class="hoverSlide"> 
+                      <h3>Extremephono Speed Standard Turntable Mat Only (SPSOU)</h3>
+                      <p>It took us hundreds of sleepless night to develop the 'Speed' - Carbon Graphite turntable mat.  Extremephono discovered the use of carbon graphite material as an ideal audio material for its unique energy-dissipation quality, and we had been promoting the use of carbon graphite as part of our LP12 modification (no longer available). </p>
+                      <p>Carbon graphite fabric is extremely stiff, which means it transfers energy from one end to another extremely effectively.</p>
+                      
+                      <!--Link to Amazon-->   
+                      <a href="https://www.amazon.com/gp/product/B07GZW6XJ5/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07GZW6XJ5&linkId=d5d4707166db552a5965a75d62601f55" target="_blank">
+                          <div class="btn-dark btn" style="color: white">
+                              <p style="margin: auto;">Click to Buy</p>
+                          </div>
+                      </a>
+                  </div> <!--End Description 5-->
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  <!--Arrow Buttons-->
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  
+              </div> <!--End Descriptions Container-->
+              
+          </div> <!--End Store-->
 	   
-        <h2 id="reviews" style="margin: 150px 0 20px">Reviews</h2>
-       <!--Reviews Row-->
-        <div class="row" id="reviews-row">
-          <div class="img col-md-4" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
-		  	<img style="width: 80%;" src="img/SATISFACTION.png" alt="Satisfaction is 100% guaranteed."/>
-			<p style="margin: 30px 0; text-align: center; color: gray">Return the item in its original condition within 30-day for a full-refund.</p>
-		  </div>
-	   	  <div class="reviews col-md-7">
-			  <div class="review">
-				 <p>"I use a Rega 3 with an after market acrylic platter. Nothing I tried including Ring mat, Herbie's new mat or your original mat, outweighed the advantages of going matless, however the Speed Mat package has exceeded the expectations of what I thought possible for a passive product to extract so much information from vinyl."</p>
-			  	 <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Extremephono Speed Mat</p></div>
-			  </div>
-			  <div class="review">
-			  	<p>"I use Casey's goo several times a day. I've inspected my Grado's with a 30 power lighted microscope and can confirm that the goo removes stuff that the usual stylus cleaning methods leave behind."</p>
-			  	<div class="btn-dark btn" style="color: white"><p style="margin: auto;">Solid-State Stylus Cleaner</p></div>
-			  </div>
-		  </div>
-		</div> <!--End Reviews Row-->
+          
+          <!--Customer Satisfaction-->
+          <h2 id="reviews" style="margin: 150px 0 20px">Reviews</h2>
+          <div class="row" id="reviews-row">
+              
+              <!--Refund Policy-->
+              <div class="img col-md-5" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
+                  
+                  <img style="width: 80%;" src="img/SATISFACTION.png" alt="Satisfaction is 100% guaranteed."/>
+                  <p style="margin: 30px 0; text-align: center; color: gray">Return the item in its original condition within 30-day for a full-refund.</p>
+
+              </div>
+	  
+              <!--Reviews-->
+              <div class="reviews col-md-7">
+	
+                  <div class="review">
+	
+                      <p>"I use a Rega 3 with an after market acrylic platter. Nothing I tried including Ring mat, Herbie's new mat or your original mat, outweighed the advantages of going matless, however the Speed Mat package has exceeded the expectations of what I thought possible for a passive product to extract so much information from vinyl."</p>
+                      
+                      <a href="https://www.amazon.com/gp/product/B07GZZVL6L/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07GZZVL6L&linkId=644a915aefe12bef44e17de47" target="_blank">
+                          <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Extremephono Speed Mat</p></div>
+                      </a>
+	
+                  </div>
+	
+                  <div class="review">
+		
+                      <p>"I use Casey's goo several times a day. I've inspected my Grado's with a 30 power lighted microscope and can confirm that the goo removes stuff that the usual stylus cleaning methods leave behind."</p>
+                      
+                      <a href="https://www.amazon.com/gp/product/B07BYVHWC8/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=extremephonoc-20&creative=9325&linkCode=as2&creativeASIN=B07BYVHWC8&linkId=508a9c0d211501027e0fe71c37a27756" target="_blank">
+                          <div class="btn-dark btn" style="color: white"><p style="margin: auto;">Solid-State Stylus Cleaner</p></div>
+                      </a>
+	
+                  </div>
+
+              </div>
+      
+          </div> <!--End Reviews Row-->
 	   
-		<!--Contact Row-->
-        <h2 id="contact" style="margin: 150px 0 20px">Contact Us</h2>
-	   <div class="row" id="contact-row" >
+          <!--Contact Row-->
+          <h2 id="contact" style="margin: 150px 0 20px">Contact Us</h2>
+          <div class="row" id="contact-row" >
 <!--Section: Contact v.2-->
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
@@ -166,11 +322,15 @@
         <!--Grid column-->
 <!--Section: Contact v.2-->
 	   </div> <!--End Contact Row-->
-    </div> <!--End Main Container-->
-	<!--Footer-->
-	<div class="text-center col-lg-6 offset-lg-3" style="padding: 150px 0 20px">
+      </div> <!--End Main Container-->
+      
+      <!--Footer-->
+      <footer>
+        <div class="text-center col-lg-6 offset-lg-3" style="padding: 150px 0 20px">
         <p>Copyright &copy; 2018 &middot; All Rights Reserved &middot; Designed and developed by <a href="irinamityugova.me" >Irina Mityugova</a></p>
-	</div><!--End Footer-->
+	
+        </div>
+    </footer><!--End Footer-->
     
       <script>
         let slideIndex = 1;
@@ -207,5 +367,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed --> 
     <script src="src/popper.min.js"></script>
     <script src="src/bootstrap-4.0.0.js"></script>
-  </body>
+
+    </body>
 </html>
