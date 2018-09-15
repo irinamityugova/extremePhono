@@ -10,6 +10,7 @@
 #featured{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 #reviews{
     display: block;
@@ -149,6 +150,11 @@ a:hover{
 	flex-wrap: wrap;
 	margin-bottom: 30px;
 }
+    .reviews{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
