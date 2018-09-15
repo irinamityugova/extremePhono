@@ -1,3 +1,16 @@
+#featured .card {
+    padding: 10px;
+    margin: 10px;
+}
+#featured p, #featured h6{
+    display: block;
+    width: 11rem;
+    margin: 10px;
+}
+#featured{
+    display: flex;
+    flex-wrap: wrap;
+}
 #reviews{
     display: block;
 }
@@ -110,8 +123,17 @@ a:hover{
 	z-index: 3;
 	border: solid 3px white;
 }
+
 .review{
-	margin-top: 40px;
+	margin-top: 20px;
+}
+
+.review a{
+    color: red;
+}
+.review a:hover{
+    color: red;
+    text-decoration: underline;
 }
 
 @media (max-width: 550px){
