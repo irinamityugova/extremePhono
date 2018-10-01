@@ -214,7 +214,8 @@
 	   
           <!--Featured-->
           <h2 style="margin-top: 60px">Recommended Audio Products</h2>
-          <div class="row" id="featured" >
+          <div class="row">
+              <div class="col-md-8" id="featured" >
               
 <!--Featured Product cards go to this section --> 
               
@@ -292,22 +293,15 @@
           </div>
           <!--End Featured-->
           
-          <!--Customer Satisfaction-->
-          <h2 id="reviews" style="margin: 150px 0 20px">Reviews</h2>
-          <div class="row" id="reviews-row">
-              
-              <!--Refund Policy-->
-              <div class="img col-md-5" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap">
-                  
-                  <img style="width: 80%;" src="img/SATISFACTION.png" alt="Satisfaction is 100% guaranteed."/>
-                  <p style="margin: 30px 0; text-align: center; color: gray">Return the item in its original condition within 30-day for a full-refund.</p>
-
-              </div>
-	  
+          <!--Sidebar-->
+          
+          <div class="col-md-4" id="reviews-row">
+              <h2 id="reviews-title" style="margin: 30px 0">Reviews</h2>
               <!--Reviews-->
-              <div class="reviews col-md-7">
+              <div class="reviews">
                   
                   <ul>
+<!--Add reviews as list items below-->
                       <li>
                       <div class="review">
                           <a href="http://www.extremephono.com/Mat.htm" target="_blank">
@@ -323,12 +317,30 @@
                           </a>
                       </div>
                       </li>
+
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
                   </ul>
+            
+              </div>
+              
+              <!--Refund Policy-->
+              <div class="img">
                   
+                  <img style="margin: 70px auto 0;width: 90%;" src="img/SATISFACTION.png" alt="Satisfaction is 100% guaranteed."/>
+                  <p style="margin: 30px 0; text-align: center; color: gray">Return the item in its original condition within 30-day for a full-refund.</p>
+
               </div>
       
           </div> <!--End Reviews Row-->
-	   
+          </div>
           <!--Contact Row-->
           <h2 id="contact" style="margin: 150px 0 20px">Contact Us</h2>
           <div class="row" id="contact-row" >
@@ -388,9 +400,7 @@
         <!--Grid column-->
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
-                <li><i class="fa fa-phone mt-4 fa-2x"></i>
-                    <p>+1(510)339-3667</p>
-                </li>
+                
                 <li><i class="fa fa-envelope mt-4 fa-2x"></i>
                     <p>extreme@extremephono.com</p>
                 </li>
@@ -438,12 +448,7 @@
         }
       </script>
     
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-    <script src="src/jquery-3.2.1.min.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed --> 
-    <script src="src/popper.min.js"></script>
-    <script src="src/bootstrap-4.0.0.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     </body>
 </html>
